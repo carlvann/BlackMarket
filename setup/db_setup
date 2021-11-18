@@ -1,0 +1,9 @@
+CREATE DATABASE blackmarket;
+
+CREATE TABLE user(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(32),
+    password VARCHAR(32),
+    membership VARCHAR(16)
+);
+
